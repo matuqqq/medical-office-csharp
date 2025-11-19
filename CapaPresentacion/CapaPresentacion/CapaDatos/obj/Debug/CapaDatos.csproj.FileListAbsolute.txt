@@ -1,0 +1,60 @@
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date

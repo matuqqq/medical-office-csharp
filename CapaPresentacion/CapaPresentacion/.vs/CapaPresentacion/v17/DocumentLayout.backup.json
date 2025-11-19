@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|d:\\capapresentacion\\capapresentacion\\capapresentacion\\capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capadatos\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|d:\\capapresentacion\\capapresentacion\\capapresentacion\\capadatos\\clases\\datos\\d_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\clases\\datos\\d_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capadatos\\clases\\datos\\d_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\clases\\datos\\d_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capadatos\\clases\\datos\\d_secretario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\clases\\datos\\d_secretario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\turnoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\turnoform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capadatos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\secretarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\secretarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\medicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\medicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\asignarturnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\asignarturnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\asignarturnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\asignarturnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\diagnosticoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\diagnosticoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\diagnosticoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\diagnosticoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\medicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\medicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\turnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\turnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\turnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\turnoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\forms\\historialclinicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\historialclinicoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|d:\\capapresentacion\\capapresentacion\\capapresentacion\\capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|d:\\capapresentacion\\capapresentacion\\capapresentacion\\capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.edmx.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 305,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDBContext.edmx.sql ",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx.sql",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDBContext.edmx.sql",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx.sql",
+              "RelativeToolTip": "CapaDatos\\ApplicationDBContext.edmx.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-11-13T14:25:22.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "D_secretario.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_secretario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Clases\\Datos\\D_secretario.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_secretario.cs",
+              "RelativeToolTip": "CapaDatos\\Clases\\Datos\\D_secretario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:00:44.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "D_medico.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_medico.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Clases\\Datos\\D_medico.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_medico.cs",
+              "RelativeToolTip": "CapaDatos\\Clases\\Datos\\D_medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:56:00.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDBContext.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDBContext.edmx",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx [Diagram1]",
+              "RelativeToolTip": "CapaDatos\\ApplicationDBContext.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-11-12T00:04:49.616Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "D_usuario.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "RelativeToolTip": "CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T01:01:02.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.Config",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\App.Config",
+              "RelativeDocumentMoniker": "CapaDatos\\App.Config",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\App.Config",
+              "RelativeToolTip": "CapaDatos\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-11T23:54:56.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.cs",
+              "RelativeToolTip": "CapaDatos\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:56:44.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Registro.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Registro.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAApwC0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:53:44.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurnoForm.Designer.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\TurnoForm.Designer.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\TurnoForm.Designer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAApwGgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:38:22.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Registro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Registro.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Registro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:53:22.09Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SecretarioForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\SecretarioForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\SecretarioForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\SecretarioForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\SecretarioForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:37:22.422Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AsignarTurnoForm.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:52:56.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AsignarTurnoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\AsignarTurnoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\AsignarTurnoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\AsignarTurnoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:46:28.7Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DiagnosticoForm.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:52:38.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MedicoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\MedicoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\MedicoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\MedicoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\MedicoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:43:41.725Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DiagnosticoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\DiagnosticoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\DiagnosticoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\DiagnosticoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:46:25.397Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TurnoForm.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\TurnoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\TurnoForm.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:44:31.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicoForm.cs",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\MedicoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\MedicoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\MedicoForm.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\MedicoForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:43:43.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TurnoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\TurnoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\TurnoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\TurnoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:38:19.537Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HistorialClinicoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\HistorialClinicoForm.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\HistorialClinicoForm.cs",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\Forms\\HistorialClinicoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\HistorialClinicoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T00:40:19.139Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
+              "ToolTip": "D:\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeToolTip": "CapaPresentacion\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-11T23:54:02.644Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

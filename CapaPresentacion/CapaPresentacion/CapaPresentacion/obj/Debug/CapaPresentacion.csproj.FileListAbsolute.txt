@@ -1,0 +1,144 @@
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Login.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Registro.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.AsignarTurnoForm.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.DiagnosticoForm.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.HistorialClinicoForm.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.MedicoForm.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.SecretarioForm.resources
+C:\Users\franc\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.TurnoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.AsignarTurnoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.DiagnosticoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.HistorialClinicoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Login.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.MedicoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Registro.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.SecretarioForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.TurnoForm.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tig4.DOMSJT\Downloads\Capa Presentacio\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.AsignarTurnoForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.DiagnosticoForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.HistorialClinicoForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Login.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.MedicoForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Registro.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.SecretarioForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.TurnoForm.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\tig4\Downloads\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.CargarPacienteForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.xml
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.AsignarTurnoForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.CargarPacienteForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.DiagnosticoForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.HistorialClinicoForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Login.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.MedicoForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Registro.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.SecretarioForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.TurnoForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.dll
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.xml
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\bin\Debug\EntityFramework.SqlServer.xml
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.AsignarTurnoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.CargarPacienteForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.DiagnosticoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.HistorialClinicoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Login.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.MedicoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.Registro.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.SecretarioForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.TurnoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.EspecialidadForm.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.ActualizarTurno.resources
+D:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.CrearHistorialClinicoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.ActualizarTurno.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.CrearHistorialClinicoForm.resources
+E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.EspecialidadForm.resources

@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capadatos\\applicationdbcontext.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capadatos\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\applicationdbcontext.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capadatos\\clases\\datos\\d_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C5F8654-BDB8-4295-8617-2BDF26E5FC90}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\clases\\datos\\d_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97A3DA6-0B97-4DE9-9639-C7912F491CD4}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capanegocio\\clases\\n_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97A3DA6-0B97-4DE9-9639-C7912F491CD4}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\clases\\n_medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C97A3DA6-0B97-4DE9-9639-C7912F491CD4}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capanegocio\\clases\\n_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C97A3DA6-0B97-4DE9-9639-C7912F491CD4}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\clases\\n_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\forms\\registro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\registro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\franc\\source\\repos\\capapresentacion\\capapresentacion\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1FE71A42-CAEA-4FFF-9D0B-0705F48AD577}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 124,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\App.Config",
+              "RelativeDocumentMoniker": "CapaDatos\\App.Config",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\App.Config",
+              "RelativeToolTip": "CapaDatos\\App.Config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-31T19:51:13.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDBContext.Context.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.Context.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDBContext.Context.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.Context.cs",
+              "RelativeToolTip": "CapaDatos\\ApplicationDBContext.Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:50:09.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "N_medico.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaNegocio\\Clases\\N_medico.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\Clases\\N_medico.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaNegocio\\Clases\\N_medico.cs",
+              "RelativeToolTip": "CapaNegocio\\Clases\\N_medico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:38:17.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "N_usuario.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaNegocio\\Clases\\N_usuario.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\Clases\\N_usuario.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaNegocio\\Clases\\N_usuario.cs",
+              "RelativeToolTip": "CapaNegocio\\Clases\\N_usuario.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:38:08.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Registro.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Registro.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Registro.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAIAwwDUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:23:24.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Registro.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Registro.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Registro.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:23:22.605Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Login.cs*",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Login.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAawB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T18:53:29.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeToolTip": "CapaPresentacion\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-31T19:53:36.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Login.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Login.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Login.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T18:32:34.275Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDBContext.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx",
+              "RelativeDocumentMoniker": "CapaDatos\\ApplicationDBContext.edmx",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\ApplicationDBContext.edmx [Diagram1]",
+              "RelativeToolTip": "CapaDatos\\ApplicationDBContext.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-10-31T18:34:08.9Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "D_usuario.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "RelativeToolTip": "CapaDatos\\Clases\\Datos\\D_usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:41:26.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Registro.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Forms\\Registro.Designer.cs",
+              "ToolTip": "C:\\Users\\franc\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Forms\\Registro.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\Forms\\Registro.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T19:33:08.362Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
