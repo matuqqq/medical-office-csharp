@@ -136,5 +136,10 @@ namespace CapaPresentacion.Forms
             verMedicosForm.Show();
             this.Hide();
         }
+
+        private void AsignarTurnoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

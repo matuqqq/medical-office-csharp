@@ -29,7 +29,6 @@ namespace CapaPresentacion.Forms
                 return;
             }
 
-            // Validar y actualizar campos
             turnoActual.Fecha = DTP_Fecha.Value;
             turnoActual.Hora = TXB_Hora.Text;
 
@@ -122,7 +121,6 @@ namespace CapaPresentacion.Forms
                 return;
             }
 
-            // Validar y actualizar campos
             turnoActual.Fecha = DTP_Fecha.Value;
             turnoActual.Hora = TXB_Hora.Text;
 

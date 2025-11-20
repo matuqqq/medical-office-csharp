@@ -50,9 +50,9 @@ namespace CapaPresentacion.Forms
 
         private void BTN_Buscar_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(TXB_DNI.Text, out int dniBuscado))
+            if (!int.TryParse(TXB_DNI.Text, out int IdBuscado))
             {
-                MessageBox.Show("Ingrese un DNI válido.");
+                MessageBox.Show("Ingrese un ID válido.");
                 return;
             }
 
@@ -60,7 +60,7 @@ namespace CapaPresentacion.Forms
             {
                 var paciente = db.PersonaSet
                     .OfType<Paciente>()
-                    .Where(p => p.DNI == dniBuscado)
+                    .Where(p => p.Id == IdBuscado)
                     .ToList()
                     .Select(p => new
                     {
@@ -77,7 +77,7 @@ namespace CapaPresentacion.Forms
 
                 if (paciente.Count == 0)
                 {
-                    MessageBox.Show("No se encontró un paciente con ese DNI.");
+                    MessageBox.Show("No se encontró un paciente con ese ID.");
                     return;
                 }
 

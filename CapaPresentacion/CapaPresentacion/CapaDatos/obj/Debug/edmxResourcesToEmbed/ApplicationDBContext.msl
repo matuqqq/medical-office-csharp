@@ -120,14 +120,6 @@
         <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
     </AssociationSetMapping>
-    <AssociationSetMapping Name="HistoriaClinicaPaciente1" TypeName="ConsultorioModel.HistoriaClinicaPaciente1" StoreEntitySet="HistoriaClinicaSet">
-      <EndProperty Name="Paciente">
-        <ScalarProperty Name="Id" ColumnName="Paciente1_Id" />
-      </EndProperty>
-      <EndProperty Name="HistoriaClinica">
-        <ScalarProperty Name="Id" ColumnName="Id" />
-      </EndProperty>
-    </AssociationSetMapping>
     <EntitySetMapping Name="Persona1">
       <EntityTypeMapping TypeName="ConsultorioModel.Persona1">
         <MappingFragment StoreEntitySet="Persona">

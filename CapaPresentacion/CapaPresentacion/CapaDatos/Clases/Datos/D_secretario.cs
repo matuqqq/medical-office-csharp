@@ -13,11 +13,9 @@ namespace CapaDatos.Clases.Datos
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                // Verificar que no exista el mismo DNI
                 if (db.PersonaSet.Any(p => p.DNI == s.DNI))
                     return false;
 
-                // Verificar que no exista otro secretario con el mismo legajo
                 if (db.PersonaSet.OfType<Secretario>().Any(sec => sec.Legajo == s.Legajo))
                     return false;
 

@@ -43,9 +43,11 @@
             // LL_Volver
             // 
             this.LL_Volver.AutoSize = true;
-            this.LL_Volver.Location = new System.Drawing.Point(150, 428);
+            this.LL_Volver.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LL_Volver.LinkColor = System.Drawing.SystemColors.Control;
+            this.LL_Volver.Location = new System.Drawing.Point(472, 437);
             this.LL_Volver.Name = "LL_Volver";
-            this.LL_Volver.Size = new System.Drawing.Size(37, 13);
+            this.LL_Volver.Size = new System.Drawing.Size(47, 17);
             this.LL_Volver.TabIndex = 24;
             this.LL_Volver.TabStop = true;
             this.LL_Volver.Text = "Volver";
@@ -53,81 +55,96 @@
             // 
             // BTN_ActualizarTurno
             // 
-            this.BTN_ActualizarTurno.Location = new System.Drawing.Point(107, 296);
+            this.BTN_ActualizarTurno.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BTN_ActualizarTurno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_ActualizarTurno.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_ActualizarTurno.ForeColor = System.Drawing.SystemColors.Control;
+            this.BTN_ActualizarTurno.Location = new System.Drawing.Point(425, 395);
             this.BTN_ActualizarTurno.Name = "BTN_ActualizarTurno";
-            this.BTN_ActualizarTurno.Size = new System.Drawing.Size(119, 23);
+            this.BTN_ActualizarTurno.Size = new System.Drawing.Size(134, 28);
             this.BTN_ActualizarTurno.TabIndex = 23;
             this.BTN_ActualizarTurno.Text = "Actualizar Turno";
-            this.BTN_ActualizarTurno.UseVisualStyleBackColor = true;
+            this.BTN_ActualizarTurno.UseVisualStyleBackColor = false;
             this.BTN_ActualizarTurno.Click += new System.EventHandler(this.BTN_ActualizarTurno_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 249);
+            this.label5.Font = new System.Drawing.Font("Lucida Console", 11.25F);
+            this.label5.ForeColor = System.Drawing.SystemColors.Control;
+            this.label5.Location = new System.Drawing.Point(353, 351);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 18);
+            this.label5.Size = new System.Drawing.Size(79, 15);
             this.label5.TabIndex = 22;
             this.label5.Text = "MedicoId";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(34, 214);
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 11.25F);
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(362, 316);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 18);
+            this.label3.Size = new System.Drawing.Size(61, 15);
             this.label3.TabIndex = 20;
             this.label3.Text = "Estado";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(41, 178);
+            this.label2.Font = new System.Drawing.Font("Lucida Console", 11.25F);
+            this.label2.ForeColor = System.Drawing.SystemColors.Control;
+            this.label2.Location = new System.Drawing.Point(371, 280);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 18);
+            this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 19;
             this.label2.Text = "Hora";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(37, 138);
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 11.25F);
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
+            this.label1.Location = new System.Drawing.Point(366, 240);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(49, 18);
+            this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 18;
             this.label1.Text = "Fecha";
             // 
             // TXB_MedicoId
             // 
-            this.TXB_MedicoId.Location = new System.Drawing.Point(105, 249);
+            this.TXB_MedicoId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TXB_MedicoId.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXB_MedicoId.Location = new System.Drawing.Point(439, 346);
             this.TXB_MedicoId.Name = "TXB_MedicoId";
-            this.TXB_MedicoId.Size = new System.Drawing.Size(138, 20);
+            this.TXB_MedicoId.Size = new System.Drawing.Size(138, 25);
             this.TXB_MedicoId.TabIndex = 17;
             // 
             // TXB_Hora
             // 
-            this.TXB_Hora.Location = new System.Drawing.Point(105, 177);
+            this.TXB_Hora.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TXB_Hora.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXB_Hora.Location = new System.Drawing.Point(438, 274);
             this.TXB_Hora.Name = "TXB_Hora";
-            this.TXB_Hora.Size = new System.Drawing.Size(138, 20);
+            this.TXB_Hora.Size = new System.Drawing.Size(138, 25);
             this.TXB_Hora.TabIndex = 14;
             // 
             // DTP_Fecha
             // 
-            this.DTP_Fecha.Location = new System.Drawing.Point(105, 138);
+            this.DTP_Fecha.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DTP_Fecha.Location = new System.Drawing.Point(438, 236);
             this.DTP_Fecha.Name = "DTP_Fecha";
-            this.DTP_Fecha.Size = new System.Drawing.Size(200, 20);
+            this.DTP_Fecha.Size = new System.Drawing.Size(200, 21);
             this.DTP_Fecha.TabIndex = 28;
             // 
             // CHB_Completado
             // 
             this.CHB_Completado.AutoSize = true;
-            this.CHB_Completado.Location = new System.Drawing.Point(105, 217);
+            this.CHB_Completado.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CHB_Completado.ForeColor = System.Drawing.SystemColors.Control;
+            this.CHB_Completado.Location = new System.Drawing.Point(438, 313);
             this.CHB_Completado.Name = "CHB_Completado";
-            this.CHB_Completado.Size = new System.Drawing.Size(82, 17);
+            this.CHB_Completado.Size = new System.Drawing.Size(106, 21);
             this.CHB_Completado.TabIndex = 29;
             this.CHB_Completado.Text = "Completado";
             this.CHB_Completado.UseVisualStyleBackColor = true;
@@ -136,7 +153,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ClientSize = new System.Drawing.Size(984, 661);
             this.Controls.Add(this.CHB_Completado);
             this.Controls.Add(this.DTP_Fecha);
             this.Controls.Add(this.LL_Volver);

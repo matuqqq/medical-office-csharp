@@ -30,7 +30,6 @@
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
           <Property Name="PacienteId" Type="int" Nullable="false" />
-          <Property Name="Paciente1_Id" Type="int" Nullable="false" />
         </EntityType>
         <EntityType Name="PermisoSet">
           <Key>
@@ -148,7 +147,7 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
               <PropertyRef Name="Id" />
             </Principal>
             <Dependent Role="HistoriaClinicaSet">
-              <PropertyRef Name="Paciente1_Id" />
+              <PropertyRef Name="PacienteId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -404,17 +403,17 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
             <End EntitySet="PersonaSet" Role="Secretario" />
             <End EntitySet="UsuarioSet" Role="Usuario" />
           </AssociationSet>
-          <AssociationSet Name="HistoriaClinicaPaciente1" Association="ConsultorioModel.HistoriaClinicaPaciente1">
-            <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
-            <End Role="Paciente" EntitySet="PersonaSet" />
-          </AssociationSet>
           <EntitySet Name="Persona1" EntityType="ConsultorioModel.Persona1" />
+          <AssociationSet Name="FK_HistoriaClinicaPaciente1" Association="ConsultorioModel.FK_HistoriaClinicaPaciente1">
+            <End Role="Paciente" EntitySet="PersonaSet" />
+            <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="Paciente" BaseType="ConsultorioModel.Persona">
           <Property Name="HistoriaClinicaId" Type="Int32" Nullable="false" />
           <Property Name="ObraSocial" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
           <Property Name="NumeroAfiliado" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="HistoriaClinica1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="Paciente" ToRole="HistoriaClinica" />
+          <NavigationProperty Name="HistoriaClinicaSets" Relationship="ConsultorioModel.FK_HistoriaClinicaPaciente1" FromRole="Paciente" ToRole="HistoriaClinica" />
         </EntityType>
         <EntityType Name="Personal" BaseType="ConsultorioModel.Persona">
           <Property Name="Legajo" Type="Int32" Nullable="false" />
@@ -475,7 +474,7 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
           <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
           <NavigationProperty Name="Consulta" Relationship="ConsultorioModel.HistoriaClinicaConsulta" FromRole="HistoriaClinica" ToRole="Consulta" />
           <Property Name="PacienteId" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Paciente1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="HistoriaClinica" ToRole="Paciente" />
+          <NavigationProperty Name="PersonaSet_Paciente" Relationship="ConsultorioModel.FK_HistoriaClinicaPaciente1" FromRole="HistoriaClinica" ToRole="Paciente" />
         </EntityType>
         <EntityType Name="Usuario">
           <Key>
@@ -589,16 +588,24 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="HistoriaClinicaPaciente1">
-          <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="1" />
-          <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="1" />
-        </Association>
         <EntityType Name="Persona1">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
         </EntityType>
+        <Association Name="FK_HistoriaClinicaPaciente1">
+          <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="1" />
+          <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Paciente">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="HistoriaClinica">
+              <PropertyRef Name="PacienteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -721,14 +728,6 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
         <ScalarProperty Name="Id" ColumnName="Usuario_Id" />
       </EndProperty>
       <EndProperty Name="Permiso">
-        <ScalarProperty Name="Id" ColumnName="Id" />
-      </EndProperty>
-    </AssociationSetMapping>
-    <AssociationSetMapping Name="HistoriaClinicaPaciente1" TypeName="ConsultorioModel.HistoriaClinicaPaciente1" StoreEntitySet="HistoriaClinicaSet">
-      <EndProperty Name="Paciente">
-        <ScalarProperty Name="Id" ColumnName="Paciente1_Id" />
-      </EndProperty>
-      <EndProperty Name="HistoriaClinica">
         <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
     </AssociationSetMapping>

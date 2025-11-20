@@ -26,6 +26,6 @@ namespace CapaDatos
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Consulta> Consulta { get; set; }
-        public virtual Paciente Paciente1 { get; set; }
+        public virtual Paciente PersonaSet_Paciente { get; set; }
     }
 }

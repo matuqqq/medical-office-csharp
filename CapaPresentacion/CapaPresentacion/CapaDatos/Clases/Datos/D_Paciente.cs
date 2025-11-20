@@ -12,7 +12,6 @@ namespace CapaDatos.Clases.Datos
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                // Verificar que no exista el mismo DNI
                 if (db.PersonaSet.Any(persona => persona.DNI == p.DNI))
                     return false;
                 db.PersonaSet.Add(p);

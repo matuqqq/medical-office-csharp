@@ -165,6 +165,11 @@ namespace CapaPresentacion.Forms
         {
 
         }
+
+        private void TXB_dni_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

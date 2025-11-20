@@ -66,17 +66,17 @@
       <End EntitySet="PersonaSet" Role="Secretario" />
       <End EntitySet="UsuarioSet" Role="Usuario" />
     </AssociationSet>
-    <AssociationSet Name="HistoriaClinicaPaciente1" Association="ConsultorioModel.HistoriaClinicaPaciente1">
-      <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
-      <End Role="Paciente" EntitySet="PersonaSet" />
-    </AssociationSet>
     <EntitySet Name="Persona1" EntityType="ConsultorioModel.Persona1" />
+    <AssociationSet Name="FK_HistoriaClinicaPaciente1" Association="ConsultorioModel.FK_HistoriaClinicaPaciente1">
+      <End Role="Paciente" EntitySet="PersonaSet" />
+      <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Paciente" BaseType="ConsultorioModel.Persona">
     <Property Name="HistoriaClinicaId" Type="Int32" Nullable="false" />
     <Property Name="ObraSocial" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <Property Name="NumeroAfiliado" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="HistoriaClinica1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="Paciente" ToRole="HistoriaClinica" />
+    <NavigationProperty Name="HistoriaClinicaSets" Relationship="ConsultorioModel.FK_HistoriaClinicaPaciente1" FromRole="Paciente" ToRole="HistoriaClinica" />
   </EntityType>
   <EntityType Name="Personal" BaseType="ConsultorioModel.Persona">
     <Property Name="Legajo" Type="Int32" Nullable="false" />
@@ -137,7 +137,7 @@
     <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
     <NavigationProperty Name="Consulta" Relationship="ConsultorioModel.HistoriaClinicaConsulta" FromRole="HistoriaClinica" ToRole="Consulta" />
     <Property Name="PacienteId" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="Paciente1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="HistoriaClinica" ToRole="Paciente" />
+    <NavigationProperty Name="PersonaSet_Paciente" Relationship="ConsultorioModel.FK_HistoriaClinicaPaciente1" FromRole="HistoriaClinica" ToRole="Paciente" />
   </EntityType>
   <EntityType Name="Usuario">
     <Key>
@@ -251,14 +251,22 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="HistoriaClinicaPaciente1">
-    <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="1" />
-    <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="1" />
-  </Association>
   <EntityType Name="Persona1">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
   </EntityType>
+  <Association Name="FK_HistoriaClinicaPaciente1">
+    <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="1" />
+    <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoriaClinica">
+        <PropertyRef Name="PacienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

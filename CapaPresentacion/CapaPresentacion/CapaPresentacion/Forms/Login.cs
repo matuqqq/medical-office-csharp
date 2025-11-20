@@ -22,7 +22,6 @@ namespace CapaPresentacion.Forms
 
         private void BTN_login_Click_1(object sender, EventArgs e)
         {
-            // Validaciones básicas
             if (string.IsNullOrWhiteSpace(TXB_dni.Text) ||
                 string.IsNullOrWhiteSpace(TXB_name.Text) ||
                 string.IsNullOrWhiteSpace(TXB_surname.Text))
@@ -39,7 +38,6 @@ namespace CapaPresentacion.Forms
 
             using (var db = new ApplicationDBContextContainer())
             {
-                // Busca persona por DNI
                 var persona = db.PersonaSet.FirstOrDefault(p => p.DNI == dni);
 
                 if (persona == null)
@@ -48,7 +46,6 @@ namespace CapaPresentacion.Forms
                     return;
                 }
 
-                // Guarda datos básicos en la sesión
                 SesionActual.PersonaId = persona.Id;
                 SesionActual.NombreCompleto = persona.Nombre + " " + persona.Apellido;
                 SesionActual.EsMedico = false;
@@ -56,7 +53,6 @@ namespace CapaPresentacion.Forms
                 SesionActual.MedicoId = null;
                 SesionActual.SecretarioId = null;
 
-                // Verifica tipo
                 if (persona is Medico medico)
                 {
                     SesionActual.EsMedico = true;

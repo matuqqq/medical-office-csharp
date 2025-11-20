@@ -174,3 +174,4 @@ D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaPres
 D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.VerPacientesForm.resources
 D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.VerMedicosForm.resources
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Forms.VerDiagnosticosForm.resources

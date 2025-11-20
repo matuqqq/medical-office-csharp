@@ -50,7 +50,6 @@ namespace CapaPresentacion.Forms
                     return;
                 }
 
-                // 1) Crear PACIENTE
                 var paciente = new Paciente
                 {
                     DNI = dni,
@@ -61,18 +60,19 @@ namespace CapaPresentacion.Forms
                     NumeroAfiliado = int.Parse(TXB_NumeroAfiliado.Text)
                 };
 
-                // 2) Crear HISTORIAL
+                db.PersonaSet.Add(paciente);
+                db.SaveChanges(); 
+
                 var historial = new HistoriaClinica
                 {
-                    FechaCreacion = DateTime.Now
+                    FechaCreacion = DateTime.Now,
+                    PacienteId = paciente.Id
                 };
 
-                // 3) Relación 1:1 - AMBOS deben apuntarse mutuamente
-                paciente.HistoriaClinica1 = historial;
-                historial.Paciente1 = paciente;
+                db.HistoriaClinicaSet.Add(historial);
+                db.SaveChanges();
 
-                // 4) Registrar en EF
-                db.PersonaSet.Add(paciente);   // Esto también agrega el historial automáticamente
+                paciente.HistoriaClinicaId = historial.Id;
                 db.SaveChanges();
             }
 
@@ -90,5 +90,9 @@ namespace CapaPresentacion.Forms
         {
         }
 
+        private void CargarPacienteForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

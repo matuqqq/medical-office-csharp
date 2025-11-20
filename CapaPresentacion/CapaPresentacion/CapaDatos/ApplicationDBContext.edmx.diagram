@@ -28,8 +28,8 @@
         <InheritanceConnector EntityType="ConsultorioModel.Medico" />
         <AssociationConnector Association="ConsultorioModel.FK_UsuarioMedico" ></AssociationConnector>
         <AssociationConnector Association="ConsultorioModel.FK_UsuarioSecretario" />
-        <AssociationConnector Association="ConsultorioModel.HistoriaClinicaPaciente1" />
         <EntityTypeShape EntityType="ConsultorioModel.Persona1" Width="1.5" PointX="0.75" PointY="0.75" />
+        <AssociationConnector Association="ConsultorioModel.FK_HistoriaClinicaPaciente1" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

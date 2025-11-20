@@ -25,7 +25,6 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
     <Property Name="PacienteId" Type="int" Nullable="false" />
-    <Property Name="Paciente1_Id" Type="int" Nullable="false" />
   </EntityType>
   <EntityType Name="PermisoSet">
     <Key>
@@ -143,7 +142,7 @@ advertencia 6002: La tabla o vista 'ConsultorioV2.dbo.Persona' no tiene definida
         <PropertyRef Name="Id" />
       </Principal>
       <Dependent Role="HistoriaClinicaSet">
-        <PropertyRef Name="Paciente1_Id" />
+        <PropertyRef Name="PacienteId" />
       </Dependent>
     </ReferentialConstraint>
   </Association>

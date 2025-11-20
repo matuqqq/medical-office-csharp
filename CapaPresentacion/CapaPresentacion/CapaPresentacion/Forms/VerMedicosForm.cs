@@ -39,7 +39,7 @@ namespace CapaPresentacion.Forms
                                     m.Nombre,
                                     m.Apellido,
                                     m.DNI,
-                                    m.Especialidad
+                                    m.Especialidad.NombreEspecialidad
                                 })
                                 .ToList();
 
@@ -51,21 +51,21 @@ namespace CapaPresentacion.Forms
         {
             if (string.IsNullOrWhiteSpace(TXB_DNI.Text))
             {
-                MessageBox.Show("Ingrese un DNI para buscar.");
+                MessageBox.Show("Ingrese un ID para buscar.");
                 return;
             }
 
-            int dniBuscado;
-            if (!int.TryParse(TXB_DNI.Text, out dniBuscado))
+            int idBuscado;
+            if (!int.TryParse(TXB_DNI.Text, out idBuscado))
             {
-                MessageBox.Show("El DNI debe ser un número.");
+                MessageBox.Show("El ID debe ser un número.");
                 return;
             }
 
             using (var db = new ApplicationDBContextContainer())
             {
                 var medico = db.PersonaSet.OfType<Medico>()
-                               .Where(m => m.DNI == dniBuscado)
+                               .Where(m => m.Id == idBuscado)
                                .Select(m => new
                                {
                                    m.Id,
@@ -78,7 +78,7 @@ namespace CapaPresentacion.Forms
 
                 if (medico.Count == 0)
                 {
-                    MessageBox.Show("No se encontró ningún médico con ese DNI.");
+                    MessageBox.Show("No se encontró ningún médico con ese ID.");
                     return;
                 }
 
@@ -103,6 +103,11 @@ namespace CapaPresentacion.Forms
             {
                 MessageBox.Show("ERROR: " + ex.Message + "\n\n" + ex.StackTrace);
             }
+        }
+
+        private void TXB_DNI_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

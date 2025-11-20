@@ -14,10 +14,17 @@ namespace CapaDatos
     
     public partial class Paciente : Persona
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Paciente()
+        {
+            this.HistoriaClinicaSets = new HashSet<HistoriaClinica>();
+        }
+    
         public int HistoriaClinicaId { get; set; }
         public string ObraSocial { get; set; }
         public int NumeroAfiliado { get; set; }
     
-        public virtual HistoriaClinica HistoriaClinica1 { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<HistoriaClinica> HistoriaClinicaSets { get; set; }
     }
 }

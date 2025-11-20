@@ -30,5 +30,24 @@ namespace CapaPresentacion.Forms
             this.Hide();
             turnoForm.Show();
         }
+
+        private void BTN_VerHistorialClinico_Click(object sender, EventArgs e)
+        {
+            HistorialClinicoForm historialClinicoForm = new HistorialClinicoForm();
+            this.Close();
+            historialClinicoForm.Show();
+        }
+
+        private void BTN_Salir_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            this.Close();
+            login.Show();
+        }
+
+        private void SecretarioForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
