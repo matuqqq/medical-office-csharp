@@ -32,17 +32,31 @@ namespace CapaPresentacion.Forms
         {
             if (string.IsNullOrWhiteSpace(TXB_PacienteId.Text))
             {
-                MessageBox.Show("Complete el campo para poder realizar la busqueda");
+                MessageBox.Show("Complete el campo para poder realizar la búsqueda.");
                 return;
             }
+
+            int pacienteID = int.Parse(TXB_PacienteId.Text);
+
             using (var db = new ApplicationDBContextContainer())
             {
-                int pacienteID = int.Parse(TXB_PacienteId.Text);
-                var existe = db.PermisoSet.Any(p => p.Id == pacienteID);
-                if(existe == true)
+                var historial = db.HistoriaClinicaSet
+                    .Where(h => h.PacienteId == pacienteID)
+                    .Select(h => new
+                    {
+                        h.Id,
+                        h.FechaCreacion,
+                        h.Consulta
+                    })
+                    .ToList();
+
+                if (historial.Count == 0)
                 {
-                    DGV_HistorialClinico.DataSource = db.PermisoSet.Where(p => p.Id == pacienteID).ToList();
+                    MessageBox.Show("El paciente no tiene historial clínico.");
+                    return;
                 }
+
+                DGV_HistorialClinico.DataSource = historial;
             }
         }
     }

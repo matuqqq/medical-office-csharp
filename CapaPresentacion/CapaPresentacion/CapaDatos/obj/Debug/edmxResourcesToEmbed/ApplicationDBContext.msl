@@ -38,6 +38,7 @@
         <MappingFragment StoreEntitySet="HistoriaClinicaSet">
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="PacienteId" ColumnName="PacienteId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -72,14 +73,6 @@
           <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
         </MappingFragment>
       </EntityTypeMapping>
-      <EntityTypeMapping TypeName="IsTypeOf(ConsultorioModel.Paciente)">
-        <MappingFragment StoreEntitySet="PersonaSet_Paciente">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="HistoriaClinicaId" ColumnName="HistoriaClinicaId" />
-          <ScalarProperty Name="ObraSocial" ColumnName="ObraSocial" />
-          <ScalarProperty Name="NumeroAfiliado" ColumnName="NumeroAfiliado" />
-        </MappingFragment>
-      </EntityTypeMapping>
       <EntityTypeMapping TypeName="IsTypeOf(ConsultorioModel.Personal)">
         <MappingFragment StoreEntitySet="PersonaSet_Personal">
           <ScalarProperty Name="Id" ColumnName="Id" />
@@ -102,6 +95,14 @@
           <ScalarProperty Name="HorarioSalida" ColumnName="HorarioSalida" />
         </MappingFragment>
       </EntityTypeMapping>
+      <EntityTypeMapping TypeName="IsTypeOf(ConsultorioModel.Paciente)">
+        <MappingFragment StoreEntitySet="PersonaSet_Paciente">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HistoriaClinicaId" ColumnName="HistoriaClinicaId" />
+          <ScalarProperty Name="ObraSocial" ColumnName="ObraSocial" />
+          <ScalarProperty Name="NumeroAfiliado" ColumnName="NumeroAfiliado" />
+        </MappingFragment>
+      </EntityTypeMapping>
     </EntitySetMapping>
     <AssociationSetMapping Name="TurnoMedico" TypeName="ConsultorioModel.TurnoMedico" StoreEntitySet="TurnoSet">
       <EndProperty Name="Medico">
@@ -119,5 +120,20 @@
         <ScalarProperty Name="Id" ColumnName="Id" />
       </EndProperty>
     </AssociationSetMapping>
+    <AssociationSetMapping Name="HistoriaClinicaPaciente1" TypeName="ConsultorioModel.HistoriaClinicaPaciente1" StoreEntitySet="HistoriaClinicaSet">
+      <EndProperty Name="Paciente">
+        <ScalarProperty Name="Id" ColumnName="Paciente1_Id" />
+      </EndProperty>
+      <EndProperty Name="HistoriaClinica">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Persona1">
+      <EntityTypeMapping TypeName="ConsultorioModel.Persona1">
+        <MappingFragment StoreEntitySet="Persona">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

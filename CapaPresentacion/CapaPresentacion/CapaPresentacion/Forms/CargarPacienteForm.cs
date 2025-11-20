@@ -16,81 +16,67 @@ namespace CapaPresentacion.Forms
 {
     public partial class CargarPacienteForm : Form
     {
+
+        N_Paciente n = new N_Paciente();
+        N_HistorialMedico n_HistorialMedico = new N_HistorialMedico();
         public CargarPacienteForm()
         {
             InitializeComponent();
-            TXB_dni.TextChanged += CargarHistorialesEnCombo;
         }
 
         private void BTN_Cargar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(TXB_dni.Text) ||
-               string.IsNullOrWhiteSpace(TXB_name.Text) ||
-               string.IsNullOrWhiteSpace(TXB_surname.Text) ||
-               string.IsNullOrWhiteSpace(DTP_Fecha.Text) ||
-               string.IsNullOrWhiteSpace(TXB_ObraSocial.Text) ||
-               string.IsNullOrWhiteSpace(TXB_NumeroAfiliado.Text) ||
-               string.IsNullOrWhiteSpace(CMB_HistoriaClinica.Text))
+                string.IsNullOrWhiteSpace(TXB_name.Text) ||
+                string.IsNullOrWhiteSpace(TXB_surname.Text) ||
+                string.IsNullOrWhiteSpace(TXB_ObraSocial.Text) ||
+                string.IsNullOrWhiteSpace(TXB_NumeroAfiliado.Text))
             {
                 MessageBox.Show("No debe dejar campos vacíos.");
                 return;
             }
-            
-            if (!int.TryParse(TXB_dni.Text, out int dni) ||
-            !DateTime.TryParse(DTP_Fecha.Text, out DateTime fecha))
+
+            if (!int.TryParse(TXB_dni.Text, out int dni))
             {
-                MessageBox.Show("DNI o fecha no válidos.");
+                MessageBox.Show("DNI inválido.");
                 return;
             }
+
             using (var db = new ApplicationDBContextContainer())
             {
                 if (db.PersonaSet.Any(p => p.DNI == dni))
                 {
-                    MessageBox.Show("La persona ya existe.");
+                    MessageBox.Show("La persona ya existe en el sistema.");
                     return;
                 }
 
-                var pacient = new Paciente
+                // 1) Crear PACIENTE
+                var paciente = new Paciente
                 {
-                    DNI = int.Parse(TXB_dni.Text),
+                    DNI = dni,
                     Nombre = TXB_name.Text,
                     Apellido = TXB_surname.Text,
                     FechaNacimiento = DTP_Fecha.Value,
                     ObraSocial = TXB_ObraSocial.Text,
-                    NumeroAfiliado = int.Parse(TXB_NumeroAfiliado.Text),
-                    HistoriaClinicaId = (int)CMB_HistoriaClinica.SelectedValue
+                    NumeroAfiliado = int.Parse(TXB_NumeroAfiliado.Text)
                 };
-            }
-            MessageBox.Show("Registro completado correctamente.");
-        }
 
-        private void CargarHistorialesEnCombo(object sender, EventArgs e)
-        {
-            if (TXB_dni.Text.Length < 7) return;
-
-            if (!int.TryParse(TXB_dni.Text, out int dni))
-                return;
-
-            using (var db = new ApplicationDBContextContainer())
-            {
-                var paciente = db.PersonaSet.OfType<Paciente>()
-                                .FirstOrDefault(p => p.DNI == dni);
-
-                if (paciente == null)
+                // 2) Crear HISTORIAL
+                var historial = new HistoriaClinica
                 {
-                    CMB_HistoriaClinica.DataSource = null;
-                    return;
-                }
+                    FechaCreacion = DateTime.Now
+                };
 
-                var historiales = db.HistoriaClinicaSet
-                    .Where(hc => hc.Id == paciente.HistoriaClinicaId)
-                    .Select(hc => new { Id = hc.Id, Fecha = hc.FechaCreacion })
-                    .ToList();
+                // 3) Relación 1:1 - AMBOS deben apuntarse mutuamente
+                paciente.HistoriaClinica1 = historial;
+                historial.Paciente1 = paciente;
 
-                CMB_HistoriaClinica.DataSource = historiales;
-                CMB_HistoriaClinica.DisplayMember = "Fecha";
-                CMB_HistoriaClinica.ValueMember = "Id";
+                // 4) Registrar en EF
+                db.PersonaSet.Add(paciente);   // Esto también agrega el historial automáticamente
+                db.SaveChanges();
             }
+
+            MessageBox.Show("Paciente cargado correctamente con historial clínico asignado.");
         }
 
         private void LL_Volver_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -102,14 +88,7 @@ namespace CapaPresentacion.Forms
 
         private void BTN_CrearHistorialClinico_Click(object sender, EventArgs e)
         {
-            CrearHistorialClinicoForm crearHistorialClinicoForm = new CrearHistorialClinicoForm();
-            this.Hide();
-            crearHistorialClinicoForm.Show();
         }
 
-        private void TXB_dni_TextChanged(object sender, EventArgs e)
-        {
-            TXB_dni.TextChanged += CargarHistorialesEnCombo;
-        }
     }
 }

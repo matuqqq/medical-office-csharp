@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CapaDatos.Clases.Entities;
 using CapaDatos.Clases.Datos;
+using CapaDatos;
 
 namespace CapaNegocio.Clases
 {
@@ -21,9 +22,19 @@ namespace CapaNegocio.Clases
                     throw new Exception("El DNI debe ser mayor a cero.");
                 if (string.IsNullOrWhiteSpace(p.Nombre) || string.IsNullOrWhiteSpace(p.Apellido))
                     throw new Exception("El nombre y el apellido son obligatorios.");
-                // Aquí iría la lógica para guardar el paciente en la base de datos
-                // Por ejemplo, llamar a un método de una clase de datos (D_Paciente)
-                return true; // Retornar true si se guarda correctamente
+
+                var paciente = new Paciente();
+                {
+                    paciente.DNI = p.DNI;
+                    paciente.Nombre = p.Nombre;
+                    paciente.Apellido = p.Apellido;
+                    paciente.FechaNacimiento = p.FechaNacimiento;
+                    paciente.ObraSocial = p.ObraSocial;
+                    paciente.NumeroAfiliado = p.NumeroAfiliado;
+
+                }
+
+                return d_Paciente.Save(paciente);
             }
             catch (Exception ex)
             {
@@ -41,9 +52,18 @@ namespace CapaNegocio.Clases
                     throw new Exception("El DNI debe ser mayor a cero.");
                 if (string.IsNullOrWhiteSpace(p.Nombre) || string.IsNullOrWhiteSpace(p.Apellido))
                     throw new Exception("El nombre y el apellido son obligatorios.");
-                // Aquí iría la lógica para actualizar el paciente en la base de datos
-                // Por ejemplo, llamar a un método de una clase de datos (D_Paciente)
-                return true; // Retornar true si se actualiza correctamente
+
+                var paciente = new Paciente();
+                {
+                    paciente.DNI = p.DNI;
+                    paciente.Nombre = p.Nombre;
+                    paciente.Apellido = p.Apellido;
+                    paciente.FechaNacimiento = p.FechaNacimiento;
+                    paciente.ObraSocial = p.ObraSocial;
+                    paciente.NumeroAfiliado = p.NumeroAfiliado;
+                }
+
+                return d_Paciente.Update(paciente);
             }
             catch (Exception ex)
             {
@@ -51,32 +71,14 @@ namespace CapaNegocio.Clases
             }
         }
 
-        public bool CargarHistorialClinico(int dni, E_historiaClinica historia)
-        {
-            try
-            {
-                if (dni <= 0)
-                    throw new Exception("El DNI debe ser mayor a cero.");
-                if (historia == null)
-                    throw new Exception("No se recibió información del historial clínico.");
-                // Aquí iría la lógica para cargar el historial clínico al paciente en la base de datos
-                // Por ejemplo, llamar a un método de una clase de datos (D_Paciente)
-                return true; // Retornar true si se carga correctamente
-            }
-            catch (Exception ex)
-            {
-                throw new Exception($"Error al cargar el historial clínico: {ex.Message}");
-            }
-        }
         public bool EliminarPaciente(int dni)
         {
             try
             {
                 if (dni <= 0)
                     throw new Exception("El DNI debe ser mayor a cero.");
-                // Aquí iría la lógica para eliminar el paciente de la base de datos
-                // Por ejemplo, llamar a un método de una clase de datos (D_Paciente)
-                return true; // Retornar true si se elimina correctamente
+
+                return d_Paciente.Delete(dni);
             }
             catch (Exception ex)
             {

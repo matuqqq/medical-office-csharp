@@ -119,6 +119,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
     <Compile Include="Paciente.cs">
       <DependentUpon>ApplicationDBContextContainer.tt</DependentUpon>
     </Compile>
@@ -126,6 +136,9 @@
       <DependentUpon>ApplicationDBContextContainer.tt</DependentUpon>
     </Compile>
     <Compile Include="Persona.cs">
+      <DependentUpon>ApplicationDBContextContainer.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Persona1.cs">
       <DependentUpon>ApplicationDBContextContainer.tt</DependentUpon>
     </Compile>
     <Compile Include="Personal.cs">
@@ -189,6 +202,14 @@
     <Content Include="Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model2.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model2.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

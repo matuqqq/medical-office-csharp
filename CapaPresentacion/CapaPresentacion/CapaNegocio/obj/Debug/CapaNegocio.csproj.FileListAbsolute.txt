@@ -56,3 +56,14 @@ E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\Capa
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.dll
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.pdb
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\CapaDatos.dll.config
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\bin\Debug\EntityFramework.xml
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNego.81B9D119.Up2Date
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaNegocio\obj\Debug\CapaNegocio.pdb

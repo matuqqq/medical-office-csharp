@@ -48,7 +48,7 @@ namespace CapaPresentacion.Forms
                     MessageBox.Show("Especialidad guardada correctamente.");
                     Registro registro = new Registro();
                     registro.Show();
-                    this.Close();
+                    this.Hide();
                 }
             }
             catch (Exception ex)

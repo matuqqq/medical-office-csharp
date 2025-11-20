@@ -24,14 +24,12 @@ namespace CapaNegocio.Clases
             if (string.IsNullOrWhiteSpace(s.Nombre) || string.IsNullOrWhiteSpace(s.Apellido))
                 throw new Exception("El nombre y el apellido son obligatorios.");
 
-            // Crear usuario por defecto
             var usuario = new Usuario
             {
                 NombreUsuario = (s.Nombre + s.Apellido).Trim(),
                 PasswordHash = "1234"
             };
 
-            // Crear entidad secretario
             var secretario = new Secretario
             {
                 Nombre = s.Nombre,

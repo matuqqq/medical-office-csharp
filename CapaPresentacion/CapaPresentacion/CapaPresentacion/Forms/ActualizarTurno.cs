@@ -33,10 +33,13 @@ namespace CapaPresentacion.Forms
             turnoActual.Fecha = DTP_Fecha.Value;
             turnoActual.Hora = TXB_Hora.Text;
 
-            if (!int.TryParse(TXB_Estado.Text, out int estado))
+            if (CHB_Completado.Checked == true)
             {
-                MessageBox.Show("Estado inválido.");
-                return;
+                turnoActual.Estado = 1;
+            }
+            else
+            {
+                turnoActual.Estado = 0;
             }
 
             if (!int.TryParse(TXB_MedicoId.Text, out int medicoId))
@@ -45,7 +48,6 @@ namespace CapaPresentacion.Forms
                 return;
             }
 
-            turnoActual.Estado = estado;
             turnoActual.MedicoId = medicoId;
 
             bool actualizado = nTurno.UpdateTurno(turnoActual);
@@ -62,24 +64,90 @@ namespace CapaPresentacion.Forms
 
         private void BTN_BuscarTurno_Click(object sender, EventArgs e)
         {
-            if (!int.TryParse(TXB_TurnoId.Text, out int id))
-            {
-                MessageBox.Show("Ingrese un ID válido.");
-                return;
-            }
-
-            turnoActual = nTurno.GetTurnoById(id);
             if (turnoActual == null)
             {
                 MessageBox.Show("No se encontró un turno con ese ID.");
                 return;
             }
 
-            // Mostrar los datos actuales
             DTP_Fecha.Value = turnoActual.Fecha;
             TXB_Hora.Text = turnoActual.Hora;
-            TXB_Estado.Text = turnoActual.Estado.ToString();
+            if(turnoActual.Estado == 0)
+                CHB_Completado.Checked = false;
+            else
+                CHB_Completado.Checked = true;
             TXB_MedicoId.Text = turnoActual.MedicoId.ToString();
+        }
+
+        private void LL_Volver_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           TurnoForm turnoForm = new TurnoForm();
+              turnoForm.Show();
+                this.Hide();
+        }
+
+        public ActualizarTurno(int turnoId)
+        {
+            InitializeComponent();
+            CargarTurno(turnoId);
+        }
+
+        private void CargarTurno(int turnoId)
+        {
+            turnoActual = nTurno.GetTurnoById(turnoId);
+
+            if (turnoActual == null)
+            {
+                MessageBox.Show("No se encontró un turno con ese ID.");
+                this.Close();
+                return;
+            }
+
+            DTP_Fecha.Value = turnoActual.Fecha;
+            TXB_Hora.Text = turnoActual.Hora;
+            CHB_Completado.Checked = turnoActual.Estado == 1;
+            TXB_MedicoId.Text = turnoActual.MedicoId.ToString();
+        }
+
+        private void ActualizarTurno_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void BTN_ActualizarTurno_Click(object sender, EventArgs e)
+        {
+            if (turnoActual == null)
+            {
+                MessageBox.Show("Primero busque un turno.");
+                return;
+            }
+
+            // Validar y actualizar campos
+            turnoActual.Fecha = DTP_Fecha.Value;
+            turnoActual.Hora = TXB_Hora.Text;
+
+            if (CHB_Completado.Checked == true)
+            {
+                turnoActual.Estado = 1;
+            }
+            else
+            {
+                turnoActual.Estado = 0;
+            }
+
+            if (!int.TryParse(TXB_MedicoId.Text, out int medicoId))
+            {
+                MessageBox.Show("MedicoId inválido.");
+                return;
+            }
+
+            turnoActual.MedicoId = medicoId;
+
+            bool actualizado = nTurno.UpdateTurno(turnoActual);
+            if (actualizado)
+                MessageBox.Show("Turno actualizado correctamente.");
+            else
+                MessageBox.Show("Error al actualizar el turno.");
         }
     }
 }

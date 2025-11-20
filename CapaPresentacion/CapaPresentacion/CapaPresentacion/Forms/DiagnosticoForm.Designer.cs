@@ -38,8 +38,8 @@
             this.TXB_TurnoId = new System.Windows.Forms.TextBox();
             this.TXB_PacienteId = new System.Windows.Forms.TextBox();
             this.TXB_Tratamiento = new System.Windows.Forms.TextBox();
-            this.TXB_Fecha = new System.Windows.Forms.TextBox();
             this.RTXB_Diagnostico = new System.Windows.Forms.RichTextBox();
+            this.DTP_Fecha = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // LL_Volver
@@ -133,13 +133,6 @@
             this.TXB_Tratamiento.Size = new System.Drawing.Size(204, 20);
             this.TXB_Tratamiento.TabIndex = 13;
             // 
-            // TXB_Fecha
-            // 
-            this.TXB_Fecha.Location = new System.Drawing.Point(349, 117);
-            this.TXB_Fecha.Name = "TXB_Fecha";
-            this.TXB_Fecha.Size = new System.Drawing.Size(138, 20);
-            this.TXB_Fecha.TabIndex = 12;
-            // 
             // RTXB_Diagnostico
             // 
             this.RTXB_Diagnostico.Location = new System.Drawing.Point(345, 155);
@@ -148,11 +141,19 @@
             this.RTXB_Diagnostico.TabIndex = 24;
             this.RTXB_Diagnostico.Text = "";
             // 
+            // DTP_Fecha
+            // 
+            this.DTP_Fecha.Location = new System.Drawing.Point(349, 114);
+            this.DTP_Fecha.Name = "DTP_Fecha";
+            this.DTP_Fecha.Size = new System.Drawing.Size(200, 20);
+            this.DTP_Fecha.TabIndex = 25;
+            // 
             // DiagnosticoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DTP_Fecha);
             this.Controls.Add(this.RTXB_Diagnostico);
             this.Controls.Add(this.LL_Volver);
             this.Controls.Add(this.BTN_CargarDiagnostico);
@@ -164,7 +165,6 @@
             this.Controls.Add(this.TXB_TurnoId);
             this.Controls.Add(this.TXB_PacienteId);
             this.Controls.Add(this.TXB_Tratamiento);
-            this.Controls.Add(this.TXB_Fecha);
             this.Name = "DiagnosticoForm";
             this.Text = "DiagnosticoForm";
             this.ResumeLayout(false);
@@ -184,7 +184,7 @@
         private System.Windows.Forms.TextBox TXB_TurnoId;
         private System.Windows.Forms.TextBox TXB_PacienteId;
         private System.Windows.Forms.TextBox TXB_Tratamiento;
-        private System.Windows.Forms.TextBox TXB_Fecha;
         private System.Windows.Forms.RichTextBox RTXB_Diagnostico;
+        private System.Windows.Forms.DateTimePicker DTP_Fecha;
     }
 }

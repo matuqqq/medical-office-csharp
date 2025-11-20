@@ -39,25 +39,7 @@ namespace CapaPresentacion.Forms
                 this.Close();
             }
 
-            using (var db = new ApplicationDBContextContainer())
-            {
-                var turnos = db.TurnoSet
-                    .Select(t => new
-                    {
-                        t.Id,
-                        Fecha = t.Fecha.ToShortDateString(),
-                        t.Hora,
-                        Estado = t.Estado == 0 ? "Pendiente" : t.Estado == 1 ? "Confirmado" : "Cancelado",
-                        Paciente = t.PacienteId + " ",
-                        Medico = t.Medico.Nombre + " " + t.Medico.Apellido
-                    })
-                    .ToList();
-
-                DGV_Turnos.DataSource = turnos;
-
-                // Opcional: ajustar columnas automáticamente
-                DGV_Turnos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            }
+            CargarDGV();
         }
 
 
@@ -65,9 +47,25 @@ namespace CapaPresentacion.Forms
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                var turnos = db.TurnoSet
+                var turnosRaw = db.TurnoSet
                     .Where(t => t.MedicoId == medicoId)
-                    .Select(t => new { t.Id, Descripcion = "Turno #" + t.Id + " - " + t.Fecha.ToShortDateString() + " " + t.Hora })
+                    .Select(t => new { t.Id, t.Fecha, t.Hora })
+                    .ToList();
+
+                if (turnosRaw.Count == 0)
+                {
+                    CMB_Turnos.DataSource = null;
+                    CMB_Turnos.Items.Clear();
+                    CMB_Turnos.Text = "";
+                    return;
+                }
+
+                var turnos = turnosRaw
+                    .Select(t => new
+                    {
+                        t.Id,
+                        Descripcion = "Turno #" + t.Id + " - " + t.Fecha.ToShortDateString() + " " + t.Hora
+                    })
                     .ToList();
 
                 CMB_Turnos.DisplayMember = "Descripcion";
@@ -80,8 +78,24 @@ namespace CapaPresentacion.Forms
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                var turnos = db.TurnoSet
-                    .Select(t => new { t.Id, Descripcion = "Turno #" + t.Id + " - " + t.Fecha.ToShortDateString() + " " + t.Hora })
+                var turnosRaw = db.TurnoSet
+                    .Select(t => new { t.Id, t.Fecha, t.Hora })
+                    .ToList();
+
+                if (turnosRaw.Count == 0)
+                {
+                    CMB_Turnos.DataSource = null;
+                    CMB_Turnos.Items.Clear();
+                    CMB_Turnos.Text = "";
+                    return;
+                }
+
+                var turnos = turnosRaw
+                    .Select(t => new
+                    {
+                        t.Id,
+                        Descripcion = "Turno #" + t.Id + " - " + t.Fecha.ToShortDateString() + " " + t.Hora
+                    })
                     .ToList();
 
                 CMB_Turnos.DisplayMember = "Descripcion";
@@ -121,8 +135,44 @@ namespace CapaPresentacion.Forms
                 CargarTurnosMedico(SesionActual.MedicoId ?? 0);
             else if (SesionActual.EsSecretario)
                 CargarTodosLosTurnos();
+            CMB_Turnos.Text = "";
+            CargarDGV();
         }
 
+
+        private void CargarDGV()
+        {
+            using (var db = new ApplicationDBContextContainer())
+            {
+                var turnosRaw = db.TurnoSet
+                    .Select(t => new
+                    {
+                        t.Id,
+                        t.Fecha,
+                        t.Hora,
+                        Estado = t.Estado == 0 ? "Pendiente" :
+                                 t.Estado == 1 ? "Confirmado" : "Cancelado",
+                        Paciente = t.PacienteId + " ",
+                        Medico = t.Medico.Nombre + " " + t.Medico.Apellido
+                    })
+                    .ToList();
+
+                var turnos = turnosRaw
+                    .Select(t => new
+                    {
+                        t.Id,
+                        Fecha = t.Fecha.ToShortDateString(),
+                        t.Hora,
+                        t.Estado,
+                        t.Paciente,
+                        t.Medico
+                    })
+                    .ToList();
+
+                DGV_Turnos.DataSource = turnos;
+                DGV_Turnos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            }
+        }
 
         private void LL_Volver_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -154,7 +204,15 @@ namespace CapaPresentacion.Forms
 
         private void BTN_Actualizar_Click(object sender, EventArgs e)
         {
-            ActualizarTurno actualizarTurno = new ActualizarTurno();
+            if (CMB_Turnos.SelectedValue == null)
+            {
+                MessageBox.Show("Seleccione un turno.");
+                return;
+            }
+
+            int turnoId = (int)CMB_Turnos.SelectedValue;
+
+            ActualizarTurno actualizarTurno = new ActualizarTurno(turnoId);
             this.Hide();
             actualizarTurno.Show();
         }

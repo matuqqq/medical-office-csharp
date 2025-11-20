@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CapaDatos;
+
 
 namespace CapaDatos.Clases.Datos
 {
@@ -13,22 +15,23 @@ namespace CapaDatos.Clases.Datos
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                var turno = db.TurnoSet.FirstOrDefault(t => t.Id == id);
-                if (turno == null) return null;
+                var t = db.TurnoSet.FirstOrDefault(x => x.Id == id);
+                if (t == null) return null;
 
                 return new E_turno
                 {
-                    Id = turno.Id,
-                    Fecha = turno.Fecha,
-                    Hora = turno.Hora,
-                    Estado = turno.Estado,
-                    PacienteId = turno.PacienteId,
-                    MedicoId = turno.MedicoId
+                    Id = t.Id,
+                    Fecha = t.Fecha,
+                    Hora = t.Hora,
+                    Estado = t.Estado,
+                    PacienteId = t.PacienteId,
+                    MedicoId = t.MedicoId
                 };
             }
         }
 
-        public bool Update(E_turno turno)
+
+        public bool Update(Turno turno)
         {
             using (var db = new ApplicationDBContextContainer())
             {
@@ -40,6 +43,22 @@ namespace CapaDatos.Clases.Datos
                 existente.Estado = turno.Estado;
                 existente.MedicoId = turno.MedicoId;
 
+                db.SaveChanges();
+                return true;
+            }
+        }
+
+        public bool Save(Turno turno)
+        {
+            using (var db = new ApplicationDBContextContainer())
+            {
+                var medico = db.PersonaSet.OfType<Medico>().FirstOrDefault(x => x.Id == turno.MedicoId);
+                if (medico == null)
+                    throw new Exception("El médico no existe");
+
+                turno.Medico = medico;
+
+                db.TurnoSet.Add(turno);
                 db.SaveChanges();
                 return true;
             }

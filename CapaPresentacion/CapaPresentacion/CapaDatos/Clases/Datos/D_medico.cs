@@ -15,18 +15,14 @@ namespace CapaDatos.Clases.Datos
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                // Evitar duplicados
                 if (db.PersonaSet.Any(p => p.DNI == m.DNI))
                     return false;
 
-                // Guardar primero el usuario
                 db.UsuarioSet.Add(u);
-                db.SaveChanges(); // Esto genera el ID del usuario
+                db.SaveChanges();
 
-                // Asignar la relación (importante si la FK está en Medico)
                 m.UsuarioSets = new List<Usuario> { u };
 
-                // Guardar el médico
                 db.PersonaSet.Add(m);
                 db.SaveChanges();
 

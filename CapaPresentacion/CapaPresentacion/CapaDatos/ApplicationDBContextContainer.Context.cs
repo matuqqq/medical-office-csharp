@@ -34,6 +34,7 @@ namespace CapaDatos
         public virtual DbSet<Usuario> UsuarioSet { get; set; }
         public virtual DbSet<Permiso> PermisoSet { get; set; }
         public virtual DbSet<Persona> PersonaSet { get; set; }
+        public virtual DbSet<Persona1> Persona1 { get; set; }
     
         public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
         {

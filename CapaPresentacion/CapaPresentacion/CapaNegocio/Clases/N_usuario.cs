@@ -21,11 +21,13 @@ namespace CapaNegocio.Clases
                 {
                     return;
                 }
-                Usuario usr = new Usuario();
-                usr.NombreUsuario = u.NombreUsuario;
-                usr.Id = u.Id;
-                usr.Rol = u.Rol;
-                usr.PasswordHash = u.PasswordHash;
+            var usr = new Usuario() 
+            {    
+                NombreUsuario = u.NombreUsuario,
+                Id = u.Id,
+                Rol = u.Rol,
+                PasswordHash = u.PasswordHash
+            };
                 duser.Save(usr);
             }
         }

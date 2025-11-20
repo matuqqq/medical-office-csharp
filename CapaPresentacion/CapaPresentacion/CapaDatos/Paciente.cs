@@ -18,6 +18,6 @@ namespace CapaDatos
         public string ObraSocial { get; set; }
         public int NumeroAfiliado { get; set; }
     
-        public virtual HistoriaClinica HistoriaClinica { get; set; }
+        public virtual HistoriaClinica HistoriaClinica1 { get; set; }
     }
 }

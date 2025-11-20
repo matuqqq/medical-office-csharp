@@ -15,6 +15,8 @@ namespace CapaPresentacion.Forms
 {
     public partial class AsignarTurnoForm : Form
     {
+        N_Turno n = new N_Turno();
+
         public AsignarTurnoForm()
         {
             InitializeComponent();
@@ -29,51 +31,87 @@ namespace CapaPresentacion.Forms
 
         private void BTN_CargarTurno_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(TXB_Estado.Text) ||
-                string.IsNullOrWhiteSpace(TXB_Fecha.Text) ||
+            if (string.IsNullOrWhiteSpace(DTP_Fecha.Text) ||
                 string.IsNullOrWhiteSpace(TXB_Hora.Text) ||
                 string.IsNullOrWhiteSpace(TXB_MedicoId.Text) ||
                 string.IsNullOrWhiteSpace(TXB_PacienteId.Text))
             {
-                MessageBox.Show("No deje campos vacios");
+                MessageBox.Show("No deje campos vacíos.");
                 return;
             }
-            if (!DateTime.TryParse(TXB_Fecha.Text, out DateTime fecha))
+
+            if (!DateTime.TryParse(DTP_Fecha.Text, out DateTime fecha))
             {
-                MessageBox.Show("fecha no válida.");
+                MessageBox.Show("Fecha no válida.");
                 return;
             }
+
+            if (!int.TryParse(TXB_MedicoId.Text, out int medicoId))
+            {
+                MessageBox.Show("MedicoId inválido.");
+                return;
+            }
+
+            if (!int.TryParse(TXB_PacienteId.Text, out int pacienteId))
+            {
+                MessageBox.Show("PacienteId inválido.");
+                return;
+            }
+
+            string hora = TXB_Hora.Text.Trim();
+
             using (var db = new ApplicationDBContextContainer())
             {
-                int medicoId = int.Parse(TXB_MedicoId.Text);
-                if (db.PersonaSet.Any(p => p.DNI == medicoId))
+                var medico = db.PersonaSet.OfType<Medico>().FirstOrDefault(m => m.Id == medicoId);
+                if (medico == null)
                 {
-                    int pacienteID = int.Parse(TXB_PacienteId.Text);
-                    if (db.PersonaSet.Any(p => p.Id == pacienteID))
+                    MessageBox.Show("El médico no existe.");
+                    return;
+                }
+
+                var paciente = db.PersonaSet.OfType<Paciente>().FirstOrDefault(p => p.Id == pacienteId);
+                if (paciente == null)
+                {
+                    MessageBox.Show("El paciente no existe, por favor cárguelo al sistema.");
+                    return;
+                }
+
+                bool conflicto = db.TurnoSet.Any(x =>
+                    x.MedicoId == medicoId &&
+                    System.Data.Entity.DbFunctions.TruncateTime(x.Fecha) == fecha.Date &&
+                    x.Hora.Trim() == hora
+                );
+
+                if (conflicto)
+                {
+                    MessageBox.Show("Conflicto: ese médico ya tiene un turno en la misma fecha y hora.");
+                    return;
+                }
+
+                var turno = new E_turno
+                {
+                    Fecha = fecha,
+                    Hora = hora,
+                    Estado = 0,
+                    PacienteId = pacienteId,
+                    MedicoId = medicoId
+                };
+
+                try
+                {
+                    bool ok = n.CheckAndSave(turno);
+                    if (ok)
                     {
-                        var turno = new E_turno
-                        {
-                            Id = +1,
-                            Fecha = Convert.ToDateTime(TXB_Fecha.Text),
-                            Estado = Convert.ToInt32(TXB_Estado.Text),
-                            Hora = TXB_Hora.Text,
-                            PacienteId = Convert.ToInt32(TXB_PacienteId),
-                            MedicoId = Convert.ToInt32(TXB_MedicoId)
-                        };
+                        MessageBox.Show("Turno creado correctamente.");             
                     }
                     else
                     {
-                        MessageBox.Show("El paciente no existe, porfavor cargarlo al sistema");
-                        return;
+                        MessageBox.Show("No se pudo guardar el turno.");
                     }
-  
-                
-            
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("El Medico no existe");
-                    return;
+                    MessageBox.Show("Error al guardar turno: " + ex.Message);
                 }
             }
         }
@@ -83,6 +121,20 @@ namespace CapaPresentacion.Forms
             CargarPacienteForm cargarPacienteForm = new CargarPacienteForm();
             this.Close();
             cargarPacienteForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            VerPacientesForm verPacientesForm = new VerPacientesForm();
+            verPacientesForm.Show();
+            this.Hide();
+        }
+
+        private void BTN_VerMedicos_Click(object sender, EventArgs e)
+        {
+            VerMedicosForm verMedicosForm = new VerMedicosForm();
+            verMedicosForm.Show();
+            this.Hide();
         }
     }
 }

@@ -58,3 +58,15 @@ E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\Entity
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
 E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.xml
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.dll
+D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\obj\Debug\CapaDatos.pdb

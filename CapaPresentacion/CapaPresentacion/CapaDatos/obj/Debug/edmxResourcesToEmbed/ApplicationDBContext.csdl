@@ -8,10 +8,6 @@
     <EntitySet Name="UsuarioSet" EntityType="ConsultorioModel.Usuario" />
     <EntitySet Name="PermisoSet" EntityType="ConsultorioModel.Permiso" />
     <EntitySet Name="PersonaSet" EntityType="ConsultorioModel.Persona" />
-    <AssociationSet Name="HistoriaClinicaPaciente" Association="ConsultorioModel.HistoriaClinicaPaciente">
-      <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
-      <End Role="Paciente" EntitySet="PersonaSet" />
-    </AssociationSet>
     <AssociationSet Name="EspecialidadMedico" Association="ConsultorioModel.EspecialidadMedico">
       <End Role="Especialidad" EntitySet="EspecialidadSet" />
       <End Role="Medico" EntitySet="PersonaSet" />
@@ -70,12 +66,17 @@
       <End EntitySet="PersonaSet" Role="Secretario" />
       <End EntitySet="UsuarioSet" Role="Usuario" />
     </AssociationSet>
+    <AssociationSet Name="HistoriaClinicaPaciente1" Association="ConsultorioModel.HistoriaClinicaPaciente1">
+      <End Role="HistoriaClinica" EntitySet="HistoriaClinicaSet" />
+      <End Role="Paciente" EntitySet="PersonaSet" />
+    </AssociationSet>
+    <EntitySet Name="Persona1" EntityType="ConsultorioModel.Persona1" />
   </EntityContainer>
   <EntityType Name="Paciente" BaseType="ConsultorioModel.Persona">
     <Property Name="HistoriaClinicaId" Type="Int32" Nullable="false" />
     <Property Name="ObraSocial" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
     <Property Name="NumeroAfiliado" Type="Int32" Nullable="false" />
-    <NavigationProperty Name="HistoriaClinica" Relationship="ConsultorioModel.HistoriaClinicaPaciente" FromRole="Paciente" ToRole="HistoriaClinica" />
+    <NavigationProperty Name="HistoriaClinica1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="Paciente" ToRole="HistoriaClinica" />
   </EntityType>
   <EntityType Name="Personal" BaseType="ConsultorioModel.Persona">
     <Property Name="Legajo" Type="Int32" Nullable="false" />
@@ -134,8 +135,9 @@
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
-    <NavigationProperty Name="Paciente" Relationship="ConsultorioModel.HistoriaClinicaPaciente" FromRole="HistoriaClinica" ToRole="Paciente" />
     <NavigationProperty Name="Consulta" Relationship="ConsultorioModel.HistoriaClinicaConsulta" FromRole="HistoriaClinica" ToRole="Consulta" />
+    <Property Name="PacienteId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Paciente1" Relationship="ConsultorioModel.HistoriaClinicaPaciente1" FromRole="HistoriaClinica" ToRole="Paciente" />
   </EntityType>
   <EntityType Name="Usuario">
     <Key>
@@ -170,18 +172,6 @@
     <Property Name="DNI" Type="Int32" Nullable="false" />
     <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
   </EntityType>
-  <Association Name="HistoriaClinicaPaciente">
-    <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="1" />
-    <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="HistoriaClinica">
-        <PropertyRef Name="Id" />
-      </Principal>
-      <Dependent Role="Paciente">
-        <PropertyRef Name="HistoriaClinicaId" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
   <Association Name="EspecialidadMedico">
     <End Type="ConsultorioModel.Especialidad" Role="Especialidad" Multiplicity="1" />
     <End Type="ConsultorioModel.Medico" Role="Medico" Multiplicity="*" />
@@ -261,4 +251,14 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="HistoriaClinicaPaciente1">
+    <End Type="ConsultorioModel.HistoriaClinica" Role="HistoriaClinica" Multiplicity="1" />
+    <End Type="ConsultorioModel.Paciente" Role="Paciente" Multiplicity="1" />
+  </Association>
+  <EntityType Name="Persona1">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
 </Schema>

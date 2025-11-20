@@ -16,7 +16,6 @@
         <EntityTypeShape EntityType="ConsultorioModel.Usuario" Width="1.5" PointX="3" PointY="4.5" />
         <EntityTypeShape EntityType="ConsultorioModel.Permiso" Width="1.5" PointX="0.5" PointY="4.875" />
         <EntityTypeShape EntityType="ConsultorioModel.Persona" Width="1.5" PointX="7.125" PointY="4.25" />
-        <AssociationConnector Association="ConsultorioModel.HistoriaClinicaPaciente" />
         <AssociationConnector Association="ConsultorioModel.EspecialidadMedico" />
         <AssociationConnector Association="ConsultorioModel.TurnoMedico" />
         <AssociationConnector Association="ConsultorioModel.HistoriaClinicaConsulta" />
@@ -29,6 +28,8 @@
         <InheritanceConnector EntityType="ConsultorioModel.Medico" />
         <AssociationConnector Association="ConsultorioModel.FK_UsuarioMedico" ></AssociationConnector>
         <AssociationConnector Association="ConsultorioModel.FK_UsuarioSecretario" />
+        <AssociationConnector Association="ConsultorioModel.HistoriaClinicaPaciente1" />
+        <EntityTypeShape EntityType="ConsultorioModel.Persona1" Width="1.5" PointX="0.75" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

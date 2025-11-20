@@ -71,12 +71,6 @@
     <Compile Include="Forms\CargarPacienteForm.Designer.cs">
       <DependentUpon>CargarPacienteForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\CrearHistorialClinicoForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\CrearHistorialClinicoForm.Designer.cs">
-      <DependentUpon>CrearHistorialClinicoForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\DiagnosticoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +119,18 @@
     <Compile Include="Forms\TurnoForm.Designer.cs">
       <DependentUpon>TurnoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\VerMedicosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VerMedicosForm.Designer.cs">
+      <DependentUpon>VerMedicosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\VerPacientesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\VerPacientesForm.Designer.cs">
+      <DependentUpon>VerPacientesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\ActualizarTurno.resx">
@@ -135,9 +141,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CargarPacienteForm.resx">
       <DependentUpon>CargarPacienteForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\CrearHistorialClinicoForm.resx">
-      <DependentUpon>CrearHistorialClinicoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\DiagnosticoForm.resx">
       <DependentUpon>DiagnosticoForm.cs</DependentUpon>
@@ -162,6 +165,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\TurnoForm.resx">
       <DependentUpon>TurnoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VerMedicosForm.resx">
+      <DependentUpon>VerMedicosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\VerPacientesForm.resx">
+      <DependentUpon>VerPacientesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

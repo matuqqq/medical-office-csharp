@@ -17,16 +17,15 @@ namespace CapaDatos
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public HistoriaClinica()
         {
-            this.Paciente = new HashSet<Paciente>();
             this.Consulta = new HashSet<Consulta>();
         }
     
         public int Id { get; set; }
         public System.DateTime FechaCreacion { get; set; }
+        public int PacienteId { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Paciente> Paciente { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Consulta> Consulta { get; set; }
+        public virtual Paciente Paciente1 { get; set; }
     }
 }

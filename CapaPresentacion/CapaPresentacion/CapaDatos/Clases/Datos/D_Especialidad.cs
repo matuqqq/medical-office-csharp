@@ -14,7 +14,6 @@ namespace CapaDatos.Clases.Datos
         {
             using (var db = new ApplicationDBContextContainer())
             {
-                // Evitar duplicados
                 if (db.EspecialidadSet.Any(es => es.NombreEspecialidad == e.NombreEspecialidad))
                     return false;
 

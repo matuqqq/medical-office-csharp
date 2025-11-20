@@ -29,5 +29,33 @@ namespace CapaDatos.Clases.Datos
             }
         }
 
+        public bool Update(Paciente p)
+        {
+            using (var db = new ApplicationDBContextContainer())
+            {
+                var existente = db.PersonaSet.OfType<Paciente>().FirstOrDefault(pa => pa.Id == p.Id);
+                if (existente == null) return false;
+                existente.Nombre = p.Nombre;
+                existente.Apellido = p.Apellido;
+                existente.DNI = p.DNI;
+                existente.FechaNacimiento = p.FechaNacimiento;
+                existente.ObraSocial = p.ObraSocial;
+                existente.NumeroAfiliado = p.NumeroAfiliado;
+                db.SaveChanges();
+                return true;
+            }
+        }
+
+        public bool Delete(int dni)
+        {
+            using (var db = new ApplicationDBContextContainer())
+            {
+                var paciente = db.PersonaSet.OfType<Paciente>().FirstOrDefault(p => p.DNI == dni);
+                if (paciente == null) return false;
+                db.PersonaSet.Remove(paciente);
+                db.SaveChanges();
+                return true;
+            }
+        }
     }
 }

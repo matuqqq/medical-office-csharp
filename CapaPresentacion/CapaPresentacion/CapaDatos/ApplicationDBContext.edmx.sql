@@ -2,8 +2,8 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 11/13/2025 23:00:16
--- Generated from EDMX file: E:\CapaPresentacion\CapaPresentacion\CapaPresentacion\CapaDatos\ApplicationDBContext.edmx
+-- Date Created: 11/19/2025 22:40:14
+-- Generated from EDMX file: D:\PROGRAMACION\medical-office-csharp\CapaPresentacion\CapaPresentacion\CapaDatos\ApplicationDBContext.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
@@ -129,7 +129,9 @@ GO
 -- Creating table 'HistoriaClinicaSet'
 CREATE TABLE [dbo].[HistoriaClinicaSet] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [FechaCreacion] datetime  NOT NULL
+    [FechaCreacion] datetime  NOT NULL,
+    [PacienteId] int  NOT NULL,
+    [Paciente1_Id] int  NOT NULL
 );
 GO
 
@@ -163,15 +165,6 @@ CREATE TABLE [dbo].[PersonaSet] (
 );
 GO
 
--- Creating table 'PersonaSet_Paciente'
-CREATE TABLE [dbo].[PersonaSet_Paciente] (
-    [HistoriaClinicaId] int  NOT NULL,
-    [ObraSocial] nvarchar(max)  NOT NULL,
-    [NumeroAfiliado] int  NOT NULL,
-    [Id] int  NOT NULL
-);
-GO
-
 -- Creating table 'PersonaSet_Personal'
 CREATE TABLE [dbo].[PersonaSet_Personal] (
     [Legajo] int  NOT NULL,
@@ -193,6 +186,15 @@ GO
 CREATE TABLE [dbo].[PersonaSet_Secretario] (
     [HorarioEntrada] datetime  NOT NULL,
     [HorarioSalida] datetime  NOT NULL,
+    [Id] int  NOT NULL
+);
+GO
+
+-- Creating table 'PersonaSet_Paciente'
+CREATE TABLE [dbo].[PersonaSet_Paciente] (
+    [HistoriaClinicaId] int  NOT NULL,
+    [ObraSocial] nvarchar(max)  NOT NULL,
+    [NumeroAfiliado] int  NOT NULL,
     [Id] int  NOT NULL
 );
 GO
@@ -243,12 +245,6 @@ ADD CONSTRAINT [PK_PersonaSet]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
--- Creating primary key on [Id] in table 'PersonaSet_Paciente'
-ALTER TABLE [dbo].[PersonaSet_Paciente]
-ADD CONSTRAINT [PK_PersonaSet_Paciente]
-    PRIMARY KEY CLUSTERED ([Id] ASC);
-GO
-
 -- Creating primary key on [Id] in table 'PersonaSet_Personal'
 ALTER TABLE [dbo].[PersonaSet_Personal]
 ADD CONSTRAINT [PK_PersonaSet_Personal]
@@ -267,24 +263,15 @@ ADD CONSTRAINT [PK_PersonaSet_Secretario]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
+-- Creating primary key on [Id] in table 'PersonaSet_Paciente'
+ALTER TABLE [dbo].[PersonaSet_Paciente]
+ADD CONSTRAINT [PK_PersonaSet_Paciente]
+    PRIMARY KEY CLUSTERED ([Id] ASC);
+GO
+
 -- --------------------------------------------------
 -- Creating all FOREIGN KEY constraints
 -- --------------------------------------------------
-
--- Creating foreign key on [HistoriaClinicaId] in table 'PersonaSet_Paciente'
-ALTER TABLE [dbo].[PersonaSet_Paciente]
-ADD CONSTRAINT [FK_HistoriaClinicaPaciente]
-    FOREIGN KEY ([HistoriaClinicaId])
-    REFERENCES [dbo].[HistoriaClinicaSet]
-        ([Id])
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
-GO
-
--- Creating non-clustered index for FOREIGN KEY 'FK_HistoriaClinicaPaciente'
-CREATE INDEX [IX_FK_HistoriaClinicaPaciente]
-ON [dbo].[PersonaSet_Paciente]
-    ([HistoriaClinicaId]);
-GO
 
 -- Creating foreign key on [EspecialidadId] in table 'PersonaSet_Medico'
 ALTER TABLE [dbo].[PersonaSet_Medico]
@@ -391,13 +378,19 @@ ON [dbo].[UsuarioSet]
     ([Secretario_Id]);
 GO
 
--- Creating foreign key on [Id] in table 'PersonaSet_Paciente'
-ALTER TABLE [dbo].[PersonaSet_Paciente]
-ADD CONSTRAINT [FK_Paciente_inherits_Persona]
-    FOREIGN KEY ([Id])
-    REFERENCES [dbo].[PersonaSet]
+-- Creating foreign key on [Paciente1_Id] in table 'HistoriaClinicaSet'
+ALTER TABLE [dbo].[HistoriaClinicaSet]
+ADD CONSTRAINT [FK_HistoriaClinicaPaciente1]
+    FOREIGN KEY ([Paciente1_Id])
+    REFERENCES [dbo].[PersonaSet_Paciente]
         ([Id])
-    ON DELETE CASCADE ON UPDATE NO ACTION;
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+GO
+
+-- Creating non-clustered index for FOREIGN KEY 'FK_HistoriaClinicaPaciente1'
+CREATE INDEX [IX_FK_HistoriaClinicaPaciente1]
+ON [dbo].[HistoriaClinicaSet]
+    ([Paciente1_Id]);
 GO
 
 -- Creating foreign key on [Id] in table 'PersonaSet_Personal'
@@ -423,6 +416,15 @@ ALTER TABLE [dbo].[PersonaSet_Secretario]
 ADD CONSTRAINT [FK_Secretario_inherits_Personal]
     FOREIGN KEY ([Id])
     REFERENCES [dbo].[PersonaSet_Personal]
+        ([Id])
+    ON DELETE CASCADE ON UPDATE NO ACTION;
+GO
+
+-- Creating foreign key on [Id] in table 'PersonaSet_Paciente'
+ALTER TABLE [dbo].[PersonaSet_Paciente]
+ADD CONSTRAINT [FK_Paciente_inherits_Persona]
+    FOREIGN KEY ([Id])
+    REFERENCES [dbo].[PersonaSet]
         ([Id])
     ON DELETE CASCADE ON UPDATE NO ACTION;
 GO

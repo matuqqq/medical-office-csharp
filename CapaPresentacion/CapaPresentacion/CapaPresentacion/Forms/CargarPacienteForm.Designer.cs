@@ -41,12 +41,9 @@ namespace CapaPresentacion.Forms
             this.TXB_ObraSocial = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.TXB_NumeroAfiliado = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.BTN_Cargar = new System.Windows.Forms.Button();
             this.LL_Volver = new System.Windows.Forms.LinkLabel();
             this.DTP_Fecha = new System.Windows.Forms.DateTimePicker();
-            this.BTN_CrearHistorialClinico = new System.Windows.Forms.Button();
-            this.CMB_HistoriaClinica = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label13
@@ -101,7 +98,6 @@ namespace CapaPresentacion.Forms
             this.TXB_dni.Name = "TXB_dni";
             this.TXB_dni.Size = new System.Drawing.Size(100, 20);
             this.TXB_dni.TabIndex = 45;
-            this.TXB_dni.TextChanged += new System.EventHandler(this.TXB_dni_TextChanged);
             // 
             // TXB_name
             // 
@@ -149,18 +145,9 @@ namespace CapaPresentacion.Forms
             this.TXB_NumeroAfiliado.Size = new System.Drawing.Size(100, 20);
             this.TXB_NumeroAfiliado.TabIndex = 56;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(283, 315);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 59;
-            this.label3.Text = "Historia Clinica";
-            // 
             // BTN_Cargar
             // 
-            this.BTN_Cargar.Location = new System.Drawing.Point(370, 356);
+            this.BTN_Cargar.Location = new System.Drawing.Point(370, 317);
             this.BTN_Cargar.Name = "BTN_Cargar";
             this.BTN_Cargar.Size = new System.Drawing.Size(75, 23);
             this.BTN_Cargar.TabIndex = 60;
@@ -186,35 +173,14 @@ namespace CapaPresentacion.Forms
             this.DTP_Fecha.Size = new System.Drawing.Size(200, 20);
             this.DTP_Fecha.TabIndex = 62;
             // 
-            // BTN_CrearHistorialClinico
-            // 
-            this.BTN_CrearHistorialClinico.Location = new System.Drawing.Point(477, 312);
-            this.BTN_CrearHistorialClinico.Name = "BTN_CrearHistorialClinico";
-            this.BTN_CrearHistorialClinico.Size = new System.Drawing.Size(20, 20);
-            this.BTN_CrearHistorialClinico.TabIndex = 63;
-            this.BTN_CrearHistorialClinico.Text = "+";
-            this.BTN_CrearHistorialClinico.UseVisualStyleBackColor = true;
-            this.BTN_CrearHistorialClinico.Click += new System.EventHandler(this.BTN_CrearHistorialClinico_Click);
-            // 
-            // CMB_HistoriaClinica
-            // 
-            this.CMB_HistoriaClinica.FormattingEnabled = true;
-            this.CMB_HistoriaClinica.Location = new System.Drawing.Point(370, 312);
-            this.CMB_HistoriaClinica.Name = "CMB_HistoriaClinica";
-            this.CMB_HistoriaClinica.Size = new System.Drawing.Size(101, 21);
-            this.CMB_HistoriaClinica.TabIndex = 64;
-            // 
             // CargarPacienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.CMB_HistoriaClinica);
-            this.Controls.Add(this.BTN_CrearHistorialClinico);
             this.Controls.Add(this.DTP_Fecha);
             this.Controls.Add(this.LL_Volver);
             this.Controls.Add(this.BTN_Cargar);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TXB_NumeroAfiliado);
             this.Controls.Add(this.label1);
@@ -247,11 +213,8 @@ namespace CapaPresentacion.Forms
         private System.Windows.Forms.TextBox TXB_ObraSocial;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox TXB_NumeroAfiliado;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BTN_Cargar;
         private System.Windows.Forms.LinkLabel LL_Volver;
         private System.Windows.Forms.DateTimePicker DTP_Fecha;
-        private System.Windows.Forms.Button BTN_CrearHistorialClinico;
-        private System.Windows.Forms.ComboBox CMB_HistoriaClinica;
     }
 }
